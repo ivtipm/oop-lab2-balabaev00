@@ -18,7 +18,7 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
+	/*Обработка слотов*/
 void MainWindow::slotButton1()
 {
     emit signalFromButton(1);
